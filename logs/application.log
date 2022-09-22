@@ -1,0 +1,22 @@
+2022-09-22 12:48:52.342  INFO 18932 --- [restartedMain] com.onm.OnmApplication                   : Starting OnmApplication using Java 17.0.4 on LIN51009190 with PID 18932 (C:\Users\SODAGGUP\Desktop\Project\onm (1)\onm\target\classes started by SODAGGUP in C:\Users\SODAGGUP\Desktop\Project\onm (1)\onm)
+2022-09-22 12:48:52.350  INFO 18932 --- [restartedMain] com.onm.OnmApplication                   : No active profile set, falling back to 1 default profile: "default"
+2022-09-22 12:48:52.421  INFO 18932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-22 12:48:52.421  INFO 18932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-22 12:48:53.361  INFO 18932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-22 12:48:53.443  INFO 18932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2022-09-22 12:48:54.234  INFO 18932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2022-09-22 12:48:54.247  INFO 18932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-22 12:48:54.247  INFO 18932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-22 12:48:54.332  INFO 18932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-22 12:48:54.333  INFO 18932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1911 ms
+2022-09-22 12:48:54.599  INFO 18932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-22 12:48:54.707  INFO 18932 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-09-22 12:48:55.025  INFO 18932 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-22 12:48:55.176  INFO 18932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-22 12:48:55.497  INFO 18932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-22 12:48:55.523  INFO 18932 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-09-22 12:48:56.343  INFO 18932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-22 12:48:56.354  INFO 18932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-22 12:48:56.874  WARN 18932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-22 12:48:57.209  INFO 18932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-22 12:48:57.257  INFO 18932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
